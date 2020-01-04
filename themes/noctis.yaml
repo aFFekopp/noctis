@@ -1,0 +1,76 @@
+noctis:  
+
+  # Fonts
+  primary-font-family: 'Raleway,sans-serif'
+  paper-font-common-base_-_font-family: "var(--primary-font-family)"
+  paper-font-common-code_-_font-family: "var(--primary-font-family)"
+  paper-font-body1_-_font-family: "var(--primary-font-family)"
+  paper-font-subhead_-_font-family: "var(--primary-font-family)"
+  paper-font-headline_-_font-family: "var(--primary-font-family)"
+  paper-font-caption_-_font-family: "var(--primary-font-family)"
+  paper-font-title_-_font-family: "var(--primary-font-family)"
+
+  # Text
+  text-color: '#ffffff' 
+  primary-text-color: 'var(--text-color)'
+  text-primary-color: 'var(--text-color)'
+  secondary-text-color: "#BAC0C6"
+  text-medium-light-color: '#A0A2A8'
+  text-medium-color: '#80828A' 
+  primary-color: 'var(--secondary-text-color)'
+  
+  # Main Colors
+  app-header-background-color: 'var(--background-color)'
+  accent-color: '#1A89F5'
+  accent-medium-color: 'var(--accent-color)'
+
+  # Background
+  background-color: '#242e42' 
+  primary-background-color: 'var(--background-color)'
+  background-color-2: '#20293c' 
+  secondary-background-color: 'var(--background-color-2)'
+  
+  # Card
+  card-background-color: 'var(--paper-card-background-color)'
+  paper-card-background-color: 'rgba(47,59,82,0.6)'
+  ha-card-box-shadow: "0px 0px 0px 0px"
+  ha-card-border-radius: "5px"
+  border-color: 'rgba(0,0,0,0)' 
+  
+  # Icons
+  paper-item-icon-color: 'var(--text-color)'    
+  paper-item-icon-active-color: 'var(--accent-color)'   
+  
+  # Sidebar
+  paper-listbox-background-color: 'var(--background-color)'
+  sidebar-icon-color: '#98a7b9'
+  sidebar-selected-icon-color: 'var(--accent-color)'
+  sidebar-selected-text-color: 'var(--text-color)'
+  divider-color: 'var(--background-color)'
+  light-primary-color: 'var(--paper-card-background-color)'
+
+  # Sliders
+  paper-slider-knob-color: 'var(--accent-color)'
+  paper-slider-pin-color: 'var(--background-color-2)'
+  paper-slider-active-color: 'var(--background-color-2)'
+  paper-slider-container-color: 'var(--border-color)'
+
+  # Toggle:
+  paper-toggle-button-checked-bar-color: 'var(--accent-color)' 
+  mdc-theme-primary: 'var(--accent-color)'
+
+  # Switch
+  switch-unchecked-color: '#70889e'
+  switch-checked-button-color: 'var(--accent-color)'
+  switch-unchecked-track-color: 'var(--background-color-2)'
+  switch-checked-track-color: 'var(--background-color-2)'
+
+  # Popups
+  paper-dialog-background-color: 'rgba(47,59,82,0.8)'
+  
+  # Custom Header
+  ch-background: 'var(--background-color)'
+  ch-active-tab-color: 'var(--accent-color)'
+  ch-notification-dot-color: 'var(--accent-color)'
+  ch-all-tabs-color: 'var(--sidebar-icon-color)'
+  ch-tab-indicator-color: 'var(--accent-color)'
