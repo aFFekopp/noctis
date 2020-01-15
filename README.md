@@ -4,7 +4,7 @@ Dark Blue Theme with Blue accent Colors for [Home Assistant](https://www.home-as
 
 [![](https://img.shields.io/badge/My-Configuration-blue?style=for-the-badge)](https://github.com/aFFekopp/homeassistant)
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=flat-square)](https://github.com/custom-components/hacs) ![STARS](https://img.shields.io/github/stars/aFFekopp/noctis?color=yellow&style=flat-square) ![ISSUES](https://img.shields.io/github/issues-raw/aFFekopp/noctis?style=flat-square) ![LASTCOMMIT](https://img.shields.io/github/last-commit/aFFekopp/noctis?style=flat-square)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square)](https://github.com/custom-components/hacs) ![STARS](https://img.shields.io/github/stars/aFFekopp/noctis?color=yellow&style=flat-square) ![ISSUES](https://img.shields.io/github/issues-raw/aFFekopp/noctis?style=flat-square) ![LASTCOMMIT](https://img.shields.io/github/last-commit/aFFekopp/noctis?style=flat-square)
 
 ## Screenshot
 ![](https://raw.githubusercontent.com/aFFekopp/noctis/master/docs/screenshots/pc/1.jpg)
