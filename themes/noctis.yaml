@@ -9,6 +9,7 @@ noctis:
   paper-font-headline_-_font-family: "var(--primary-font-family)"
   paper-font-caption_-_font-family: "var(--primary-font-family)"
   paper-font-title_-_font-family: "var(--primary-font-family)"
+  ha-card-header-font-family: "var(--primary-font-family)"
 
   # Text
   text-color: '#ffffff' 
@@ -17,7 +18,7 @@ noctis:
   secondary-text-color: "#BAC0C6"
   text-medium-light-color: '#A0A2A8'
   text-medium-color: '#80828A' 
-  primary-color: 'var(--secondary-text-color)'
+  primary-color: 'none'
   
   # Main Colors
   app-header-background-color: 'var(--background-color)'
@@ -25,21 +26,21 @@ noctis:
   accent-medium-color: 'var(--accent-color)'
 
   # Background
-  background-color: '#242e42' 
+  background-color: '#242e42'
   primary-background-color: 'var(--background-color)'
   background-color-2: '#20293c' 
-  secondary-background-color: 'var(--background-color-2)'
+  secondary-background-color: 'none'
   
   # Card
   card-background-color: 'var(--paper-card-background-color)'
   paper-card-background-color: 'rgba(47,59,82,0.6)'
-  ha-card-box-shadow: "0px 0px 0px 0px"
+  ha-card-box-shadow: "3px 3px 13px -6px rgba(17,35,52,1)"
   ha-card-border-radius: "5px"
-  border-color: 'rgba(0,0,0,0)' 
+  border-color: 'none'
   
   # Icons
-  paper-item-icon-color: 'var(--text-color)'    
-  paper-item-icon-active-color: 'var(--accent-color)'   
+  paper-item-icon-color: 'var(--text-color)'
+  paper-item-icon-active-color: 'var(--accent-color)'
   
   # Sidebar
   paper-listbox-background-color: 'var(--background-color)'
@@ -56,7 +57,7 @@ noctis:
   paper-slider-container-color: 'var(--border-color)'
 
   # Toggle:
-  paper-toggle-button-checked-bar-color: 'var(--accent-color)' 
+  paper-toggle-button-checked-bar-color: 'var(--accent-color)'
   mdc-theme-primary: 'var(--accent-color)'
 
   # Switch
@@ -66,7 +67,9 @@ noctis:
   switch-checked-track-color: 'var(--background-color-2)'
 
   # Popups
-  paper-dialog-background-color: 'rgba(47,59,82,0.8)'
+  more-info-header-background: 'var(--secondary-background-color)'
+  paper-dialog-background-color: 'rgba(47,59,82,0.4)'
+  
   
   # Custom Header
   ch-background: 'var(--background-color)'
