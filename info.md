@@ -41,6 +41,18 @@ If you want to use the custom fonts, you need to add this to your `ui-lovelace.y
   type: css
 ```
 
+#### Blur
+
+If you want the blur effect on your popup cards add this to your `ui-lovelace.yaml` under `resources`
+
+```yaml
+- url: /local/popup-background.js
+  type: js
+```
+thanks to [@matt8707](https://github.com/matt8707) for posting this
+
+and put `popup-background.js` into your `www` folder
+
 ## My other Themes
 - [Dark Teal](https://github.com/aFFekopp/dark_teal)
 
