@@ -32,6 +32,15 @@ frontend:
 3. Navigate to `Noctis`.
 4. Press Install.
 
+#### Fonts
+
+If you want to use the custom fonts, you need to add this to your `ui-lovelace.yaml` under `resources`
+
+```yaml
+- url: 'https://fonts.googleapis.com/css?family=Raleway'
+  type: css
+```
+
 ## My other Themes
 - [Dark Teal](https://github.com/aFFekopp/dark_teal)
 
