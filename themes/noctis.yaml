@@ -33,7 +33,7 @@ noctis:
   
   # Card
   card-background-color: 'var(--paper-card-background-color)'
-  paper-card-background-color: 'rgba(47,59,82,0.6)'
+  paper-card-background-color: 'rgba(43,55,78,1)'
   ha-card-box-shadow: "3px 3px 13px -6px rgba(17,35,52,1)"
   ha-card-border-radius: "5px"
   border-color: 'none'
