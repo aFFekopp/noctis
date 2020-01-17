@@ -37,9 +37,9 @@ noctis:
   ha-card-box-shadow: "3px 3px 13px -6px rgba(17,35,52,1)"
   ha-card-border-radius: "5px"
   border-color: 'none'
-  
+
   # Icons
-  paper-item-icon-color: 'var(--text-color)'
+  paper-item-icon-color: '#EBEBEB'
   paper-item-icon-active-color: 'var(--accent-color)'
   
   # Sidebar
@@ -69,7 +69,12 @@ noctis:
   # Popups
   more-info-header-background: 'var(--secondary-background-color)'
   paper-dialog-background-color: 'rgba(47,59,82,0.4)'
-  
+
+  # Tables
+  table-row-background-color: 'var(--background-color)'
+  table-row-alternative-background-color: 'var(--paper-card-background-color)'
+
+  paper-input-container-focus-color: 'var(--accent-color)'
   
   # Custom Header
   ch-background: 'var(--background-color)'
