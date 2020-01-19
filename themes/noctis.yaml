@@ -66,6 +66,9 @@ noctis:
   switch-unchecked-track-color: 'var(--background-color-2)'
   switch-checked-track-color: 'var(--background-color-2)'
 
+  # Radio Button
+  paper-radio-button-checked-color: 'var(--accent-color)'
+
   # Popups
   more-info-header-background: 'var(--secondary-background-color)'
   paper-dialog-background-color: 'rgba(47,59,82,0.4)'
