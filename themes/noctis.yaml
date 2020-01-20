@@ -71,7 +71,7 @@ noctis:
 
   # Popups
   more-info-header-background: 'var(--secondary-background-color)'
-  paper-dialog-background-color: 'rgba(47,59,82,0.4)'
+  paper-dialog-background-color: 'var(--background-color)' #'rgba(47,59,82,0.4)'
 
   # Tables
   table-row-background-color: 'var(--background-color)'
