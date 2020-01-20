@@ -77,6 +77,11 @@ noctis:
   table-row-background-color: 'var(--background-color)'
   table-row-alternative-background-color: 'var(--paper-card-background-color)'
 
+  #Badges
+  label-badge-background-color: 'var(--background-color)'
+  label-badge-text-color: 'var(--text-primary-color)'
+  label-badge-red: 'var(--paper-card-background-color)'
+  
   paper-input-container-focus-color: 'var(--accent-color)'
   
   # Custom Header
