@@ -80,7 +80,10 @@ noctis:
   #Badges
   label-badge-background-color: 'var(--background-color)'
   label-badge-text-color: 'var(--text-primary-color)'
-  label-badge-red: 'var(--paper-card-background-color)'
+  label-badge-red: 'rgba(73,85,108,1)'
+  label-badge-blue: 'var(--label-badge-red)'
+  label-badge-green: 'var(--label-badge-red)'
+  label-badge-yellow: 'var(--label-badge-red)'
   
   paper-input-container-focus-color: 'var(--accent-color)'
   
