@@ -93,3 +93,7 @@ noctis:
   ch-notification-dot-color: 'var(--accent-color)'
   ch-all-tabs-color: 'var(--sidebar-icon-color)'
   ch-tab-indicator-color: 'var(--accent-color)'
+
+  # Mini Mediaplayer
+  mini-media-player-base-color: 'var(--text-color)'
+  mini-media-player-accent-color: 'var(--accent-color)'
