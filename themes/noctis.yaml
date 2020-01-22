@@ -18,7 +18,7 @@ noctis:
   secondary-text-color: "#BAC0C6"
   text-medium-light-color: '#A0A2A8'
   text-medium-color: '#80828A' 
-  primary-color: 'none'
+  primary-color: 'var(--accent-color)'
   
   # Main Colors
   app-header-background-color: 'var(--background-color)'
