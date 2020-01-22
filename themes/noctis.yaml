@@ -54,7 +54,7 @@ noctis:
   paper-slider-knob-color: 'var(--accent-color)'
   paper-slider-pin-color: 'var(--background-color-2)'
   paper-slider-active-color: 'var(--background-color-2)'
-  paper-slider-container-color: 'var(--border-color)'
+  paper-slider-container-color: 'var(--background-color-2)'
 
   # Toggle:
   paper-toggle-button-checked-bar-color: 'var(--accent-color)'
