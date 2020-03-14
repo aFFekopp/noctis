@@ -53,6 +53,9 @@ thanks to [@matt8707](https://github.com/matt8707) for posting this
 
 and put `popup-background.js` into your `www` folder
 
+Additionaly if you are using Firefox you need to go into `about:config` and set both `gfx.webrender.all`
+and `layout.css.backdrop-filter.enabled` to true. You may need to restart Firefox fo it to take effect.
+
 ## My other Themes
 - [Dark Teal](https://github.com/aFFekopp/dark_teal)
 
