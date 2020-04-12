@@ -33,7 +33,7 @@ noctis:
   
   # Card
   card-background-color: 'var(--paper-card-background-color)'
-  paper-card-background-color: 'linear-gradient(145deg, #273246, #2e3b53)' #'rgba(43,55,78,1)'
+  paper-card-background-color: 'rgba(43,55,78,1)' #'linear-gradient(145deg, #273246, #2e3b53)'
   ha-card-box-shadow: "3px 3px 13px -6px rgba(17,35,52,1)"
   ha-card-border-radius: "5px"
   border-color: 'none'
@@ -43,10 +43,11 @@ noctis:
   paper-item-icon-active-color: 'var(--accent-color)'
   
   # Sidebar
-  paper-listbox-background-color: 'var(--background-color)'
+  sidebar-background-color: 'var(--background-color)'
   sidebar-icon-color: '#98a7b9'
   sidebar-selected-icon-color: 'var(--accent-color)'
   sidebar-selected-text-color: 'var(--text-color)'
+  paper-listbox-background-color: 'var(--sidebar-background-color)'
   divider-color: 'var(--background-color)'
   light-primary-color: 'var(--paper-card-background-color)'
 
