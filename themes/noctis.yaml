@@ -17,7 +17,8 @@ noctis:
   text-primary-color: 'var(--text-color)'
   secondary-text-color: "#BAC0C6"
   text-medium-light-color: '#A0A2A8'
-  text-medium-color: '#80828A' 
+  text-medium-color: '#80828A'
+  disabled-text-color: '#626569'
   primary-color: 'var(--accent-color)'
   
   # Main Colors
@@ -54,7 +55,7 @@ noctis:
   # Sliders
   paper-slider-knob-color: 'var(--accent-color)'
   paper-slider-pin-color: 'var(--background-color-2)'
-  paper-slider-active-color: 'var(--background-color-2)'
+  paper-slider-active-color: 'var(--accent-color)'
   paper-slider-container-color: 'var(--background-color-2)'
 
   # Toggle:
@@ -78,14 +79,14 @@ noctis:
   table-row-background-color: 'var(--background-color)'
   table-row-alternative-background-color: 'var(--paper-card-background-color)'
 
-  #Badges
+  # Badges
   label-badge-background-color: 'var(--background-color)'
   label-badge-text-color: 'var(--text-primary-color)'
   label-badge-red: 'rgba(73,85,108,1)'
   label-badge-blue: 'rgba(26,137,245,1)'
   label-badge-green: 'rgba(0,202,139,1)'
   label-badge-yellow: 'rgba(222,176,107,1)'
-  
+
   paper-input-container-focus-color: 'var(--accent-color)'
   
   # Custom Header
