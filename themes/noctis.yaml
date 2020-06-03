@@ -31,6 +31,7 @@ noctis:
   primary-background-color: 'var(--background-color)'
   background-color-2: '#20293c' 
   secondary-background-color: 'none'
+  markdown-code-background-color: 'var(--sidebar-background-color)'
   
   # Card
   card-background-color: 'var(--paper-card-background-color)'
