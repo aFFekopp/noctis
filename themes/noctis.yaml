@@ -22,7 +22,7 @@ noctis:
   primary-color: 'var(--accent-color)'
   
   # Main Colors
-  app-header-background-color: 'var(--background-color)'
+  app-header-background-color: '#242e42'
   accent-color: '#1A89F5'
   accent-medium-color: 'var(--accent-color)'
 
@@ -31,11 +31,11 @@ noctis:
   primary-background-color: 'var(--background-color)'
   background-color-2: '#20293c' 
   secondary-background-color: 'none'
-  markdown-code-background-color: 'var(--sidebar-background-color)'
+  markdown-code-background-color: 'var(--background-color)'
   
   # Card
-  card-background-color: 'var(--paper-card-background-color)'
-  paper-card-background-color: 'rgba(43,55,78,1)' #'linear-gradient(145deg, #273246, #2e3b53)'
+  card-background-color: 'var(--ha-card-background)'
+  ha-card-background: 'rgba(43,55,78,1)' #'linear-gradient(145deg, #273246, #2e3b53)'
   ha-card-box-shadow: "3px 3px 13px -6px rgba(17,35,52,1)"
   ha-card-border-radius: "5px"
   border-color: 'none'
@@ -51,7 +51,7 @@ noctis:
   sidebar-selected-text-color: 'var(--text-color)'
   paper-listbox-background-color: 'var(--sidebar-background-color)'
   divider-color: 'var(--background-color)'
-  light-primary-color: 'var(--paper-card-background-color)'
+  light-primary-color: 'var(--ha-card-background)'
 
   # Sliders
   paper-slider-knob-color: 'var(--accent-color)'
@@ -78,7 +78,7 @@ noctis:
 
   # Tables
   table-row-background-color: 'var(--background-color)'
-  table-row-alternative-background-color: 'var(--paper-card-background-color)'
+  table-row-alternative-background-color: 'var(--ha-card-background)'
 
   # Badges
   label-badge-background-color: 'var(--background-color)'
