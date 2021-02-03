@@ -43,7 +43,7 @@ If you want to use the custom fonts, you need to add this to your `ui-lovelace.y
 
 #### Blur
 
-If you want the blur effect on your popup cards you need to have card-mod installed and uncomment the following lines in noctis.yaml
+If you want the blur effect on your popup cards you need to have [card-mod](https://github.com/thomasloven/lovelace-card-mod) installed and uncomment the following lines in noctis.yaml
 
 ```yaml
 card-mod-theme: noctis
