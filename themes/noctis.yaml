@@ -100,3 +100,28 @@ noctis:
   # Mini Mediaplayer
   mini-media-player-base-color: 'var(--text-color)'
   mini-media-player-accent-color: 'var(--accent-color)'
+
+
+  # Card-Mod #####################################################################
+  # Uncomment the Code below if you have card-mod installed and want blur effect #
+  ################################################################################
+
+
+  # card-mod-theme: noctis
+  
+  # card-mod-more-info-yaml: |
+  #   $: |
+  #     .mdc-dialog .mdc-dialog__scrim {
+  #       backdrop-filter: blur(15px);
+  #       -webkit-backdrop-filter: blur(15px);
+  #       background: rgba(0,0,0,.6);
+  #     } 
+  #     .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
+  #       box-shadow: none !important;
+  #       border-radius: var(--ha-card-border-radius);
+  #     }
+  #   .: |
+  #     :host {
+  #       --ha-card-box-shadow: none;
+  #     }
+    
