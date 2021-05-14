@@ -101,6 +101,9 @@ noctis:
   mini-media-player-base-color: 'var(--text-color)'
   mini-media-player-accent-color: 'var(--accent-color)'
 
+  # Alarm
+  alarm-color-armed: 'rgba(247,53,67,1)'
+
 
   # Card-Mod #####################################################################
   # Uncomment the Code below if you have card-mod installed and want blur effect #
