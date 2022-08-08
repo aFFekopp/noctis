@@ -58,6 +58,9 @@ noctis:
   ha-card-border-radius: "5px"
   border-color: 'none'
 
+  # Dialog
+  ha-dialog-border-radius: "5px"
+
   # Icons
   paper-item-icon-color: '#EBEBEB'
   paper-item-icon-active-color: 'var(--accent-color)'
