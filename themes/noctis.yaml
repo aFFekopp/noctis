@@ -20,6 +20,7 @@ noctis:
   text-medium-color: '#80828A'
   disabled-text-color: '#626569'
   primary-color: 'var(--accent-color)'
+  text-light-primary-color: 'var(--text-color)'
 
   # Text Fields an Dropdown
   mdc-text-field-fill-color: '#2e3b53'
