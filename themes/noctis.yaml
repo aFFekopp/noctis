@@ -137,10 +137,10 @@ noctis:
   # info-color: #039be5
 
   # State Colors
-  state-active-color: '#5294e2'
-  state-red-color: '#F73543'
+  state-active-color: '#1A89F5'
+  state-red-color: '#FC937E'
   state-green-color: '#00CA8B'
-  state-orange-color: '#FCD14E'
+  state-orange-color: '#F7F78B'
   state-alarm_control_panel-armed_away-color: 'var(--state-green-color)'
   state-alarm_control_panel-armed_custom_bypass-color: 'var(--state-green-color)'
   state-alarm_control_panel-armed_home-color: 'var(--state-green-color)'
