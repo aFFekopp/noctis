@@ -254,6 +254,7 @@ noctis:
   # Mini Mediaplayer
   mini-media-player-base-color: 'var(--text-color)'
   mini-media-player-accent-color: 'var(--accent-color)'
+  mini-media-player-button-color: 'var(--ha-card-background)'
 
   # Alarm
   alarm-color-armed: 'rgba(247,53,67,1)'
