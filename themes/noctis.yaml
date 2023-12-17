@@ -36,6 +36,10 @@ noctis:
   input-idle-line-color: 'var(--background-color)'
   input-dropdown-icon-color: 'var(--secondary-text-color)'
   input-hover-line-color: 'var(--primary-color)'
+  input-disabled-line-color: 'var(--disabled-text-color)'
+  input-outlined-idle-border-color: 'var(--disabled-text-color)'
+  input-outlined-hover-border-color: 'var(--disabled-text-color)'
+  input-outlined-disabled-border-color: 'var(--disabled-text-color)'
   code-editor-background-color: '#222c40'
   codemirror-property: 'var(--accent-color)'
   
@@ -44,6 +48,8 @@ noctis:
   header-height: 48px
   accent-color: '#1A89F5'
   accent-medium-color: 'var(--accent-color)'
+  dark-primary-color: 'var(--accent-color)'
+  paper-card-background-color: 'var(--background-color)'
 
   # Background
   background-color: '#242e42'
@@ -51,22 +57,28 @@ noctis:
   background-color-2: '#20293c' 
   secondary-background-color: 'none'
   markdown-code-background-color: 'var(--background-color)'
+  material-background-color: "var(--paper-listbox-background-color)"
+  material-secondary-background-color: 'var(--ha-card-background)'
+  clear-background-color: 'var(--accent-color)'
   
   # Card
   card-background-color: 'var(--ha-card-background)'
   ha-card-background: 'rgba(43,55,78,1)' #'linear-gradient(145deg, #273246, #2e3b53)'
   ha-card-box-shadow: "3px 3px 13px -6px rgba(17,35,52,1)"
   ha-card-border-radius: "5px"
-  border-radius: "5px"
+  border-radius: "20px"
   ha-card-border-color: 'rgba(0,0,0,0)'
   ha-card-border-width: '0'
+  ha-card-header-color: "var(--primary-text-color)"
 
   # Dialog
-  ha-dialog-border-radius: "5px"
+  ha-dialog-border-radius: "20px"
+  light-primary-color: 'var(--disabled-text-color)'
 
   # Icons
   paper-item-icon-color: '#EBEBEB'
   paper-item-icon-active-color: 'var(--accent-color)'
+  paper-item-selected_-_background-color: 'var(--background-color)'
 
   # RGB States
   rgb-state-default-color: '26, 137, 245'
@@ -85,56 +97,6 @@ noctis:
   # rgb-state-script-color: 'var(--rgb-state-default-color)'
   # rgb-state-timer-color: 'var(--rgb-state-default-color)'
   # rgb-state-vacuum-color: 'var(--rgb-state-default-color)'
-  # rgb-state-alarm-armed-color: var(--rgb-red-color)
-  # rgb-state-alarm-arming-color: var(--rgb-orange-color)
-  # rgb-state-alarm-disarmed-color: var(--rgb-grey-color)
-  # rgb-state-alarm-pending-color: var(--rgb-orange-color)
-  # rgb-state-alarm-triggered-color: var(--rgb-red-color)
-  # rgb-state-alert-color: var(--rgb-red-color)
-  # rgb-state-binary-sensor-alerting-color: var(--rgb-red-color)
-  # rgb-state-calendar-color: var(--rgb-blue-color)
-  # rgb-state-camera-color: var(--rgb-blue-color)
-  # rgb-state-climate-auto-color: var(--rgb-green-color)
-  # rgb-state-climate-cool-color: var(--rgb-blue-color)
-  # rgb-state-climate-dry-color: var(--rgb-orange-color)
-  # rgb-state-climate-fan-only-color: var(--rgb-cyan-color)
-  # rgb-state-climate-heat-color: var(--rgb-deep-orange-color)
-  # rgb-state-climate-heat-cool-color: var(--rgb-amber-color)
-  # rgb-state-climate-idle-color: var(--rgb-disabled-color)
-  # rgb-state-lock-jammed-color: var(--rgb-red-color)
-  # rgb-state-lock-locked-color: var(--rgb-red-color)
-  # rgb-state-lock-pending-color: var(--rgb-orange-color)
-  # rgb-state-lock-unlocked-color: var(--rgb-red-color)
-  # rgb-state-person-home-color: var(--rgb-green-color)
-  # rgb-state-person-zone-color: var(--rgb-blue-color)
-  # rgb-state-person-not-home-color: var(--rgb-grey-color)
-  # rgb-state-sensor-battery-high-color: var(--rgb-green-color)
-  # rgb-state-sensor-battery-low-color: var(--rgb-red-color)
-  # rgb-state-sensor-battery-medium-color: var(--rgb-orange-color)
-  # rgb-state-sensor-battery-unknown-color: var(--rgb-disabled-color)
-  # rgb-state-siren-color: var(--rgb-red-color)
-  # rgb-state-sun-day-color: var(--rgb-amber-color)
-  # rgb-state-sun-night-color: var(--rgb-deep-purple-color)
-  # rgb-state-update-color: var(--rgb-green-color)
-  # rgb-state-update-installing-color: var(--rgb-orange-color)
-  # rgb-state-light-color: 'var(--rgb-state-default-color)'
-  # rgb-state-switch-color: 'var(--rgb-state-default-color)'
-  # rgb-state-automation-color: 'var(--rgb-state-default-color)'
-  # rgb-state-binary-sensor-color: 'var(--rgb-state-default-color)'
-  # rgb-state-cover-color: 'var(--rgb-state-default-color)'
-  # rgb-state-fan-color: 'var(--rgb-state-default-color)'
-  # rgb-state-group-color: 'var(--rgb-state-default-color)'
-  # rgb-state-humidifier-color: 'var(--rgb-state-default-color)'
-  # rgb-state-input-boolean-color: 'var(--rgb-state-default-color)'
-  # rgb-state-media-player-color: 'var(--rgb-state-default-color)'
-  # rgb-state-remote-color: 'var(--rgb-state-default-color)'
-  # rgb-state-script-color: 'var(--rgb-state-default-color)'
-  # rgb-state-timer-color: 'var(--rgb-state-default-color)'
-  # rgb-state-vacuum-color: 'var(--rgb-state-default-color)'
-  # error-color: #db4437
-  # warning-color: #ffa600
-  # success-color: #43a047
-  # info-color: #039be5
 
   # State Colors
   state-active-color: '#1A89F5'
@@ -204,23 +166,32 @@ noctis:
   sidebar-selected-text-color: 'var(--text-color)'
   paper-listbox-background-color: 'var(--sidebar-background-color)'
   divider-color: 'var(--background-color)'
-  light-primary-color: 'var(--ha-card-background)'
 
   # Sliders
   paper-slider-knob-color: 'var(--accent-color)'
   paper-slider-pin-color: 'var(--background-color-2)'
   paper-slider-active-color: 'var(--accent-color)'
   paper-slider-container-color: 'var(--background-color-2)'
+  paper-slider-knob-start-color: 'var(--accent-color)'
+  paper-slider-secondary-color: 'var(--secondary-background-color)'
+  paper-slider-disabled-active-color: 'var(--disabled-text-color)'
+  paper-slider-disabled-secondary-color: 'var(--disabled-text-color)'
 
   # Toggle:
   paper-toggle-button-checked-bar-color: 'var(--accent-color)'
   mdc-theme-primary: 'var(--accent-color)'
+  paper-toggle-button-checked-ink-color: 'var(--accent-color)'
+  paper-toggle-button-unchecked-button-color: 'var(--disabled-text-color)'
+  paper-toggle-button-unchecked-bar-color: 'var(--disabled-text-color)'
+  paper-toggle-button-unchecked-ink-color: 'var(--disabled-text-color)'
 
   # Switch
   switch-unchecked-color: '#70889e'
   switch-checked-button-color: 'var(--accent-color)'
   switch-unchecked-track-color: 'var(--background-color-2)'
   switch-checked-track-color: 'var(--background-color-2)'
+  switch-checked-color: 'var(--paper-toggle-button-checked-button-color)'
+  switch-unchecked-button-color: 'var(--disabled-text-color)'
 
   # Radio Button
   paper-radio-button-checked-color: 'var(--accent-color)'
@@ -243,6 +214,27 @@ noctis:
   label-badge-yellow: 'rgba(222,176,107,1)'
 
   paper-input-container-focus-color: 'var(--accent-color)'
+
+  # Calendar
+  lumo-primary-text-color: 'var(--accent-color)'
+  lumo-secondary-text-color: 'var(--accent-color)'
+  lumo-primary-color: 'var(--accent-color)'
+  lumo-body-text-color: "#89B3F8"
+  lumo-base-color: 'var(--background-color)'
+  lumo-header-text-color: 'var(--lumo-body-text-color)'
+  lumo-tertiary-text-color: 'var(--lumo-body-text-color)'
+  lumo-shade: 'var(--background-color)'
+  lumo-shade-90pct: 'rgba(34, 34, 34, .9)'
+  lumo-shade-80pct: 'rgba(34, 34, 34, .8)'
+  lumo-shade-70pct: 'rgba(34, 34, 34, .7)'
+  lumo-shade-60pct: 'rgba(34, 34, 34, .6)'
+  lumo-shade-50pct: 'rgba(34, 34, 34, .5)'
+  lumo-shade-40pct: 'rgba(34, 34, 34, .4)'
+  lumo-shade-30pct: 'rgba(34, 34, 34, .3)'
+  lumo-shade-20pct: 'rgba(34, 34, 34, .2)'
+  lumo-shade-10pct: 'rgba(34, 34, 34, .1)'
+  lumo-shade-5pct: 'rgba(34, 34, 34, .05)'
+  lumo-tint-5pct: 'var(--background-color)'
   
   # Custom Header
   ch-background: 'var(--background-color)'
@@ -258,6 +250,18 @@ noctis:
 
   # Alarm
   alarm-color-armed: 'rgba(247,53,67,1)'
+
+  # Valetudo
+  valetudo-map-floor-color: 'var(--switch-unchecked-color)'
+  valetudo-map-wall-color: 'var(--label-badge-red)'
+
+  #
+  st-font-size-xl: 24px
+  st-font-size-m: 20px
+  st-font-size-title: 20px
+  st-font-size-sensors: 15px
+  st-spacing: 2px
+  st-mode-background: 'var(--primary-background-color)'
 
 
   # Card-Mod #####################################################################
