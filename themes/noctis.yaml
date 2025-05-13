@@ -2,14 +2,35 @@ noctis:
 
   # Fonts
   primary-font-family: 'Raleway,sans-serif'
-  paper-font-common-base_-_font-family: "var(--primary-font-family)"
-  paper-font-common-code_-_font-family: "var(--primary-font-family)"
-  paper-font-body1_-_font-family: "var(--primary-font-family)"
-  paper-font-subhead_-_font-family: "var(--primary-font-family)"
-  paper-font-headline_-_font-family: "var(--primary-font-family)"
-  paper-font-caption_-_font-family: "var(--primary-font-family)"
-  paper-font-title_-_font-family: "var(--primary-font-family)"
+  ha-font-family-heading: "var(--primary-font-family)"
+  ha-font-family-body: "var(--primary-font-family)"
+  ha-font-family-code: 'Raleway,sans-serif'
+  ha-font-family-longform: 'Raleway,sans-serif'
   ha-card-header-font-family: "var(--primary-font-family)"
+
+  # ha-font-size-scale: 1
+  # ha-font-size-2xs: 0.625rem
+  # ha-font-size-xs: 0.75rem
+  # ha-font-size-s: 0.875rem
+  # ha-font-size-m: 1rem
+  # ha-font-size-l: 1.125rem
+  # ha-font-size-xl: 1.25rem
+  # ha-font-size-2xl: 1.5rem
+  # ha-font-size-3xl: 1.875rem
+  # ha-font-size-4xl: 2.25rem
+
+  # ha-font-weight-light: 300
+  # ha-font-weight-normal: 400
+  # ha-font-weight-medium: 500
+  # ha-font-weight-bold: 700
+  # ha-font-weight-body: var(--ha-font-weight-normal)
+  # ha-font-weight-heading: var(--ha-font-weight-medium)
+  # ha-font-weight-action: var(--ha-font-weight-medium)
+
+  # ha-line-height-condensed: 1.2
+  # ha-line-height-normal: 1.5
+  # ha-line-height-expanded: 1.8
+  # ha-font-smoothing: antialiased
 
   # Text
   text-color: '#ffffff' 
@@ -22,7 +43,7 @@ noctis:
   primary-color: 'var(--accent-color)'
   text-light-primary-color: 'var(--text-color)'
 
-  # Text Fields an Dropdown
+  # Text Fields and Dropdown
   mdc-text-field-fill-color: '#2e3b53'
   mdc-text-field-ink-color: 'var(--text-color)'
   mdc-select-fill-color: '#2e3b53'
