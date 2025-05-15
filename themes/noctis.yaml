@@ -100,6 +100,7 @@ noctis:
   paper-item-icon-color: '#EBEBEB'
   paper-item-icon-active-color: 'var(--accent-color)'
   paper-item-selected_-_background-color: 'var(--background-color)'
+  state-icon-color: 'var(--secondary-text-color)'
 
   # RGB States
   rgb-state-default-color: '26, 137, 245'
