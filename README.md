@@ -4,7 +4,11 @@ Dark Blue Theme with Blue accent Colors for [Home Assistant](https://www.home-as
 
 [![](https://img.shields.io/badge/My-Configuration-blue?style=for-the-badge)](https://github.com/aFFekopp/homeassistant)
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square)](https://github.com/hacs/integration) ![STARS](https://img.shields.io/github/stars/aFFekopp/noctis?color=yellow&style=flat-square) ![ISSUES](https://img.shields.io/github/issues-raw/aFFekopp/noctis?style=flat-square) ![LASTCOMMIT](https://img.shields.io/github/last-commit/aFFekopp/noctis?style=flat-square)
+[![GitHub Stars](https://img.shields.io/github/stars/aFFekopp/noctis?style=social)](https://github.com/aFFekopp/noctis/stargazers)
+[![HACS Badge](https://img.shields.io/badge/Available%20in-HACS-41BDF5?logo=home-assistant&logoColor=white)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aFFekopp&repository=noctis&category=theme)
+[![Latest Release](https://img.shields.io/github/v/release/aFFekopp/noctis?label=Release&logo=github)](https://github.com/aFFekopp/noctis/releases)
+[![Issues](https://img.shields.io/github/issues-raw/aFFekopp/noctis?label=Issues)](https://github.com/aFFekopp/noctis/issues)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-☕-orange?logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/affekopp)
 
 ## Screenshot
 ![](https://raw.githubusercontent.com/aFFekopp/noctis/master/docs/screenshots/pc/1.jpg)
@@ -70,6 +74,11 @@ and `layout.css.backdrop-filter.enabled` to true. You may need to restart Firefo
 
 ## My other Themes
 - [Dark Teal](https://github.com/aFFekopp/dark_teal)
+
+## Support Me
+If you like my theme and enjoy using it consider donating
+
+<a href="https://www.buymeacoffee.com/affekopp" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## Aditional Screenshots
 
