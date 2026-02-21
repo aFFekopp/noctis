@@ -228,7 +228,6 @@ noctis:
   paper-dialog-background-color: 'var(--background-color)' #'rgba(47,59,82,0.4)'
   popup-border-radius: "5px"
   ha-dialog-scrim-backdrop-filter: 'blur(10px)'
-  ha-dialog-surface-backdrop-filter: 'blur(10px)'
   ha-dialog-surface-background: 'rgba(43,55,78,0.7)'
   mdc-dialog-scrim-color: rgba(0,0,0,0.6)
 
