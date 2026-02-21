@@ -55,6 +55,7 @@ noctis:
   input-disabled-fill-color: 'var(--background-color)'
   input-disabled-ink-color: 'var(--disabled-text-color)'
   input-disabled-label-ink-color: 'var(--disabled-text-color)'
+  input-idle-line-color: 'var(--accent-color)'
   input-dropdown-icon-color: 'var(--secondary-text-color)'
   input-hover-line-color: 'var(--primary-color)'
   input-disabled-line-color: 'var(--disabled-text-color)'
@@ -65,7 +66,8 @@ noctis:
   codemirror-property: 'var(--accent-color)'
   ha-color-fill-primary-normal-resting: '#2e3b53'
   ha-color-fill-disabled-normal-resting: '#222c40'
-  input-idle-line-color: 'var(--accent-color)'
+  ha-color-fill-neutral-quiet-resting: 'var(--card-background-color)'
+  ha-color-fill-primary-quiet-resting: 'var(--background-color)'
 
   # Main Colors
   app-header-background-color: '#242e42'
@@ -79,7 +81,7 @@ noctis:
   background-color: '#242e42'
   primary-background-color: 'var(--background-color)'
   background-color-2: '#20293c'
-  secondary-background-color: 'none'
+  secondary-background-color: 'var(--card-background-color)'
   markdown-code-background-color: 'var(--background-color)'
   material-background-color: "var(--paper-listbox-background-color)"
   material-secondary-background-color: 'var(--ha-card-background)'
