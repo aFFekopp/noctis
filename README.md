@@ -45,32 +45,6 @@ If you want to use the custom fonts, you need to add this to your `ui-lovelace.y
   type: css
 ```
 
-#### Blur
-
-If you want the blur effect on your popup cards you need to have [card-mod](https://github.com/thomasloven/lovelace-card-mod) installed and uncomment the following lines in noctis.yaml
-
-```yaml
-card-mod-theme: noctis
-  
-  card-mod-more-info-yaml: |
-    $: |
-      .mdc-dialog .mdc-dialog__scrim {
-        backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(15px);
-        background: rgba(0,0,0,.6);
-      } 
-      .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
-        box-shadow: none !important;
-        border-radius: var(--ha-card-border-radius);
-      }
-    .: |
-      :host {
-        --ha-card-box-shadow: none;
-      }
-```
-
-(Don't know if necessary anymore) Additionaly if you are using Firefox you need to go into `about:config` and set both `gfx.webrender.all`
-and `layout.css.backdrop-filter.enabled` to true. You may need to restart Firefox fo it to take effect.
 
 ## My other Themes
 - [Dark Teal](https://github.com/aFFekopp/dark_teal)
